@@ -2,13 +2,19 @@
 
 ## Install
 
-Paste this into Claude Code:
+```sh
+npx skills add danihrndzld/unit-test-antislop --global
+```
+
+Drop `--global` to install into the current project only. Works with Claude Code, Cursor, Codex and the other agents supported by [skills](https://github.com/vercel-labs/skills).
+
+Or paste this into Claude Code:
 
 ```
 Install the skill from https://github.com/danihrndzld/unit-test-antislop: clone it into ~/.claude/skills/unit-test-antislop (git clone https://github.com/danihrndzld/unit-test-antislop ~/.claude/skills/unit-test-antislop), confirm SKILL.md is there, and from now on load the unit-test-antislop skill (and tell any subagent to load it) whenever writing, reviewing, or extending unit tests or doing TDD.
 ```
 
-Or manually:
+Or with git:
 
 ```sh
 git clone https://github.com/danihrndzld/unit-test-antislop ~/.claude/skills/unit-test-antislop
